@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TaxPal - Accounting made simple for small businesses</title>
+        <title>Hamlet - Renting for the 21st century</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Renting is often painful for landlords and tenants alike. We use technology to deliver a delightful customer experience fit for the 21st century."
         />
       </Head>
       <Header />

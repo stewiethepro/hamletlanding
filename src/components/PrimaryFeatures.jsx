@@ -5,6 +5,11 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
+import screenshotView from '@/images/screenshots/view.png'
+import screenshotApply from '@/images/screenshots/apply.png'
+import screenshotVerify from '@/images/screenshots/verify.png'
+import screenshotPay from '@/images/screenshots/pay.png'
+
 import screenshotExpenses from '@/images/screenshots/expenses.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
@@ -12,28 +17,28 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'View',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+      "Explore a 3D render or book an in-person viewing through the Hamlet app.",
+    image: screenshotView,
   },
   {
-    title: 'Claim expenses',
+    title: 'Apply',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      "Get pre-approved as a Hamlet resident in less than 5 minutes and submit home applications in 3 clicks.",
+    image: screenshotApply,
   },
   {
-    title: 'VAT handling',
+    title: 'Verify',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      "Breeze through Hamlet's best-in-class, in-app identity and income verification.",
+    image: screenshotVerify,
   },
   {
-    title: 'Reporting',
+    title: 'Sign & Pay',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'e-Sign your tenancy agreement and set up deposit and rent through GoCardless.',
+    image: screenshotPay,
   },
 ]
 
@@ -72,11 +77,11 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Finally, a modern rental experience
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            View, apply, sign and pay. On your phone. In under 48 hours.
+             
           </p>
         </div>
         <Tab.Group
