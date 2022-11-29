@@ -6,53 +6,53 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'Does Hamlet manage my property?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Yes, we manage your property end-to-end, from application through to end-of-tenancy.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Do you offer discounts for multiple properties',
+      answer: 'Absolutely, get in touch with us to discuss volume pricing.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'How do you screen residents?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'We conduct identity and income verification, background checks, character checks and credit checks.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'How do I pay for Hamlet?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'We set up a direct debit payment which is billed monthly.',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'Where do rent payments go?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'All rent monies are reconciled in an audited Trust Account and transferred directly to homeowners. No fees are deducted from rent.',
     },
     {
       question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+        'How do I sign up for home improvements?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'You can get started in the Hamlet app, just fill out a homeowner application.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Can I transfer an active tenancy?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        "Absolutely, just give us the details and we'll take care of it for you. If you're with another property manager we'll handle any break costs.",
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'Where does Hamlet operate?',
+      answer:
+        'Hamlet is currently operating in Auckland.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
-      answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+      question: 'When is Hamlet launching?',
+      answer: 'Hamlet is coming to Auckland in February 2022',
     },
   ],
 ]
@@ -81,8 +81,7 @@ export function Faqs() {
             Frequently asked questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            If these don't answer your question then please get in touch with us!
           </p>
         </div>
         <ul

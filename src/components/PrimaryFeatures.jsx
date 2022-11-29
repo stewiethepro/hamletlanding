@@ -37,7 +37,7 @@ const features = [
   {
     title: 'Sign & Pay',
     description:
-      'e-Sign your tenancy agreement and set up deposit and rent through GoCardless.',
+      'e-Sign your tenancy agreement, pay your deposit and set up your rent payments from your device.',
     image: screenshotPay,
   },
 ]
@@ -77,7 +77,7 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Finally, a modern rental experience
+            For residents
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
             View, apply, sign and pay. On your phone. In under 48 hours.
