@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hamlet - Renting for the 21st century</title>
+        <title>Hamlet - Renting made delightful</title>
         <meta
           name="description"
           content="Renting is often painful for landlords and tenants alike. We use technology to deliver a delightful customer experience fit for the 21st century."
