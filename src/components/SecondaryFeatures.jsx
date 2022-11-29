@@ -56,7 +56,7 @@ function Feature({ feature, isActive, className, ...props }) {
       <div
         className={clsx(
           'w-9 rounded-lg',
-          isActive ? 'bg-blue-600' : 'bg-slate-500'
+          isActive ? 'bg-indigo-600' : 'bg-slate-500'
         )}
       >
         <svg aria-hidden="true" className="h-9 w-9 p-2" fill="none">
@@ -66,7 +66,7 @@ function Feature({ feature, isActive, className, ...props }) {
       <h3
         className={clsx(
           'mt-6 text-sm font-medium',
-          isActive ? 'text-blue-600' : 'text-slate-600'
+          isActive ? 'text-indigo-600' : 'text-slate-600'
         )}
       >
         {feature.name}
@@ -160,7 +160,7 @@ function FeaturesDesktop() {
 export function SecondaryFeatures() {
   return (
     <section
-      id="secondary-features"
+      id="homeowners"
       aria-label="Features for simplifying everyday business tasks"
       className="pt-20 pb-14 sm:pb-20 sm:pt-32 lg:pb-32"
     >

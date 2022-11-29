@@ -51,7 +51,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
     <section
       className={clsx(
         'flex flex-col rounded-3xl px-6 sm:px-8',
-        featured ? 'order-first bg-blue-600 py-8 lg:order-none' : 'lg:py-8'
+        featured ? 'order-first bg-indigo-600 py-8 lg:order-none' : 'lg:py-8'
       )}
     >
       <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
@@ -84,8 +84,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
       <Button
       href={href}
       variant={featured ? 'solid' : 'outline'}
-      color="white"
-      className="mt-8"
+      className="mt-8 inline-flex items-center px-5 py-2 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 hover:text-indigo-700"
       aria-label={`Get started with the ${name} plan for ${price}`}
       >
         Get started
@@ -108,7 +107,7 @@ export function Pricing() {
         <div className="md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
-              <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-blue-400" />
+              <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-indigo-400" />
               <span className="relative">Simple pricing,</span>
             </span>{' '}
             for every homeowner.
