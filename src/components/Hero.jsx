@@ -27,7 +27,7 @@ export function Hero() {
         </span>
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-      Hamlet creates a modern experiences for residents and homeowners, because your home deserves to be loved.
+      Hamlet creates modern experiences for residents and homeowners, because your home deserves to be loved.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button className="inline-flex items-center px-5 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="/register">Join the waitlist</Button>
